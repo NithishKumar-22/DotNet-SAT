@@ -1,0 +1,184 @@
+﻿@model User
+@inject IRespository _respository;
+@{
+    Layout="_layout";
+}
+<style>
+    .headlabel{
+        background-color: rgb(161, 62, 194) ;
+        width: 9em;
+        font-weight: bold;
+    }
+    .datalabel{
+        width: 9em;
+    }
+    center{
+        margin-left:90px;
+    }
+    h1{
+        margin-left: 430px;
+        width: 400px;
+        margin-top:2%;
+    }
+    td{
+        padding: 10px;
+    }
+    button{
+        border:none ;
+        background-color: rgb(161, 62, 194);
+        border-radius: 7%;
+        margin-left: 450px;
+        margin-top: 20px;
+        height: 40px;
+        width: 80px;
+        font-weight: bold;
+    }
+</style>
+
+<h1>New User</h1>
+<form method="post">
+<center>
+<table>
+    <tr>
+        <td>
+            <label class="headlabel">Name </label>
+        </td>
+        <td>
+            <input asp-for="Name" class="datalabel" ></input>
+        </td>
+        <td>
+            <label class="headlabel">Age </label>
+        </td>
+        <td>
+            <input asp-for="age" class="datalabel" ></input>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td> 
+            <span asp-validation-for="Name"></span>
+            @* @Html.ValidationMessageFor((m => m.Username),"",new{@class="text-danger"}) *@
+        </td>
+        <td>
+        </td>
+        <td>
+            <span asp-validation-for="age"></span>
+            @* @Html.ValidationMessageFor((m => m.age),"",new{@class="text-danger"}) *@
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="headlabel">Username</label>
+        </td>
+        <td>
+           <input asp-for="Username" name="Username" class="datalabel"></input>
+        </td>
+        <td>
+            <label class="headlabel">Password</label>
+        </td>
+        <td>
+           <input type="password" asp-for="Password" class="datalabel"></input>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+           <span asp-validation-for="Username"></span>
+           @* @Html.ValidationMessageFor((m => m.Username),"",new{@class="text-danger"}) *@
+        </td>
+        <td>
+        </td>
+        <td>
+           <span asp-validation-for="Password"></span>
+           @* @Html.ValidationMessageFor((m => m.Password),"",new{@class="text-danger"}) *@
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="headlabel">Date Of Joining</label>
+        </td>
+         <td>
+           <input asp-for="DOJ" class="datalabel"></input>
+        </td>
+        <td>
+            <label class="headlabel">Confirm Password</label>
+        </td>
+        <td>
+           <input type="password" asp-for="Confirmpassword" class="datalabel"></input>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+         <td>
+           <span asp-validation-for="DOJ"></span>
+           @* @Html.ValidationMessageFor((m => m.Password),"",new{@class="text-danger"}) *@
+        </td>
+        <td>
+        </td>
+        <td>
+           <span asp-validation-for="Confirmpassword"></span>
+           @* @Html.ValidationMessageFor((m => m.Password),"",new{@class="text-danger"}) *@
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="headlabel">Role</label>
+        </td>
+        <td>
+           <input asp-for="Role" class="datalabel"  value="Employee" readonly></input>
+        </td>
+        <td>
+            <label class="headlabel">Designation</label>
+        </td>
+        <td>
+            <input name="Designation"  asp-for="Designation" class="datalabel" ></input>
+        </td>
+    </tr>
+     <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+            <span asp-validation-for="Designation"></span>
+            @* @Html.ValidationMessageFor((m => m.Designation),"",new{@class="text-danger"}) *@
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="headlabel">Email ID</label>
+        </td>
+        <td>
+           <input type="email" asp-for="EmailID" class="datalabel"></input>
+        </td>
+        <td>
+            <label class="headlabel">Phone No</label>
+        </td>
+        <td>
+            <input asp-for="Phoneno" class="datalabel" ></input>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+           <span asp-validation-for="EmailID"></span>
+           @* @Html.ValidationMessageFor((m => m.EmailID),"",new{@class="text-danger"}) *@
+        </td>
+        <td>
+        </td>
+        <td>
+            <span asp-validation-for="Phoneno"></span>
+            @* @Html.ValidationMessageFor((m => m.Phoneno),"",new{@class="text-danger"}) *@
+        </td>
+    </tr>
+</table>
+</center>
+<button type="submit">Register</button> 
+<label>Count of the Employee = @_respository.GetDetails().Count()</label>
+</form>

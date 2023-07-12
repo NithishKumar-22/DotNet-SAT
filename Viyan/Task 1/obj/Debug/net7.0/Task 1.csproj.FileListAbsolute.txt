@@ -1,0 +1,38 @@
+E:\Vs Code\Task 1\bin\Debug\net7.0\appsettings.Development.json
+E:\Vs Code\Task 1\bin\Debug\net7.0\appsettings.json
+E:\Vs Code\Task 1\bin\Debug\net7.0\Task 1.staticwebassets.runtime.json
+E:\Vs Code\Task 1\bin\Debug\net7.0\Task 1.exe
+E:\Vs Code\Task 1\bin\Debug\net7.0\Task 1.deps.json
+E:\Vs Code\Task 1\bin\Debug\net7.0\Task 1.runtimeconfig.json
+E:\Vs Code\Task 1\bin\Debug\net7.0\Task 1.dll
+E:\Vs Code\Task 1\bin\Debug\net7.0\Task 1.pdb
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.csproj.AssemblyReference.cache
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.AssemblyInfoInputs.cache
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.AssemblyInfo.cs
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.csproj.CoreCompileInputs.cache
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.MvcApplicationPartsAssemblyInfo.cache
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.RazorAssemblyInfo.cache
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.RazorAssemblyInfo.cs
+E:\Vs Code\Task 1\obj\Debug\net7.0\staticwebassets\msbuild.Task 1.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Vs Code\Task 1\obj\Debug\net7.0\staticwebassets\msbuild.build.Task 1.props
+E:\Vs Code\Task 1\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Task 1.props
+E:\Vs Code\Task 1\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Task 1.props
+E:\Vs Code\Task 1\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Vs Code\Task 1\obj\Debug\net7.0\staticwebassets.build.json
+E:\Vs Code\Task 1\obj\Debug\net7.0\staticwebassets.development.json
+E:\Vs Code\Task 1\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Vs Code\Task 1\obj\Debug\net7.0\scopedcss\bundle\Task 1.styles.css
+E:\Vs Code\Task 1\obj\Debug\net7.0\scopedcss\projectbundle\Task 1.bundle.scp.css
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.dll
+E:\Vs Code\Task 1\obj\Debug\net7.0\refint\Task 1.dll
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.pdb
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.genruntimeconfig.cache
+E:\Vs Code\Task 1\obj\Debug\net7.0\ref\Task 1.dll
+E:\Vs Code\Task 1\bin\Debug\net7.0\System.Data.SqlClient.dll
+E:\Vs Code\Task 1\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+E:\Vs Code\Task 1\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+E:\Vs Code\Task 1\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+E:\Vs Code\Task 1\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Vs Code\Task 1\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Vs Code\Task 1\obj\Debug\net7.0\Task 1.csproj.CopyComplete
